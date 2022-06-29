@@ -84,6 +84,7 @@
                             @endif
                         </tbody>
                     </table>
+                    {{ $pizzas->links() }}
                 </div>
             </div>
         </div>
